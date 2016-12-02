@@ -40,9 +40,6 @@
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button7 = new System.Windows.Forms.Button();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // button1
@@ -159,41 +156,11 @@
             this.checkBox6.Text = "checkBox6";
             this.checkBox6.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(434, 195);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 9;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(640, 192);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 10;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(224, 164);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(80, 17);
-            this.checkBox7.TabIndex = 11;
-            this.checkBox7.Text = "checkBox7";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(892, 515);
-            this.Controls.Add(this.checkBox7);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.checkBox6);
             this.Controls.Add(this.checkBox5);
             this.Controls.Add(this.checkBox4);
@@ -227,9 +194,6 @@
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.CheckBox checkBox5;
         private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.CheckBox checkBox7;
     }
 }
 
